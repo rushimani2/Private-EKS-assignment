@@ -36,8 +36,8 @@ This project provisions a **secure, private AWS EKS cluster** using Terraform an
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/rushimani2/Private-EKS-assignment
+cd Private-EKS-assignment
 ```
 
 ### 2. Initialize Terraform
