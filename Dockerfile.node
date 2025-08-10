@@ -1,0 +1,11 @@
+# Dummy Dockerfile for a simple Node.js application
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY . /app
+
+RUN npm install
+
+CMD ["node", "-e", "require('http').createServer((req,res)=>res.end('Hello World')).listen(8080)"]
